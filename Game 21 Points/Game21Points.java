@@ -19,7 +19,6 @@ public class Game21Points {
         System.out.println("3. Тузы дают 1 или 11 очков (автоматически выбирается лучшее)");
         System.out.println("4. Если больше 21 - проигрыш");
 
-        // Начальные карты
         playerScore += drawCard(random);
         playerScore += drawCard(random);
 
@@ -29,7 +28,6 @@ public class Game21Points {
         System.out.println("Твои очки: " + playerScore);
         System.out.println("Карта дилера: " + dealerScore);
 
-        // Ход игрока
         while (playerTurn && !gameOver) {
             System.out.print("\nЧто будешь делать? (1 - Взять карту, 2 - Остановиться): ");
             int choice = scanner.nextInt();
@@ -50,7 +48,7 @@ public class Game21Points {
             }
         }
 
-        // Ход дилера, если игрок не проиграл
+      
         if (!gameOver) {
             System.out.println("\n--- ХОД ДИЛЕРА ---");
             System.out.println("Карты дилера: " + dealerScore);
@@ -68,7 +66,7 @@ public class Game21Points {
             }
         }
 
-        // Определяем победителя
+    
         System.out.println("\n=== РЕЗУЛЬТАТ ===");
         System.out.println("Твои очки: " + playerScore);
         System.out.println("Очки дилера: " + dealerScore);
@@ -88,16 +86,16 @@ public class Game21Points {
         scanner.close();
     }
 
-    // Метод для "взятия" карты
     public static int drawCard(Random random) {
         int card = random.nextInt(13) + 1;
 
         if (card > 10) {
-            return 10; // Валет, Дама, Король = 10
+            return 10; 
         } else if (card == 1) {
-            return 11; // Туз = 11 (упрощенно)
+            return 11; 
         } else {
             return card;
         }
     }
+
 }

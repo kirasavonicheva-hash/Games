@@ -52,7 +52,7 @@ public class Dungeon {
     private static void fightMonster() {
         Monster monster = generateMonster();
         System.out.println("\n⚔️ Вы встретили " + monster.name + " (Уровень " + monster.level + ")!");
-        System.out.println("Монстр:  " + monster.health + " | ⚡ " + monster.damage + " урона");
+        System.out.println("Монстр:  " + monster.health + " |  " + monster.damage + " урона");
         while (monster.isAlive() && player.isAlive()) {
             System.out.println("\n1.  Атаковать");
             System.out.println("2.  Защищаться (половина урона)");
@@ -297,4 +297,5 @@ public class Dungeon {
             return name + " (" + typeStr + ", +" + value + ")";
         }
     }
+
 }

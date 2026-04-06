@@ -21,7 +21,7 @@ public class HorrorEntity extends HostileEntity {
     private int ambientSoundCooldown = 0;
     protected HorrorEntity(EntityType<? extends HostileEntity> entityType, World world) {
         super(entityType, world);
-        this.textureVariant = RANDOM.nextInt(5); // 0-4
+        this.textureVariant = RANDOM.nextInt(5); 
         this.experiencePoints = 15;
     }
     @Override
@@ -38,7 +38,7 @@ public class HorrorEntity extends HostileEntity {
     protected void initAttributes() {
         super.initAttributes();
         this.getAttributeInstance(EntityAttributes.MAX_HEALTH).setBaseValue(40.0);
-        this.getAttributeInstance(EntityAttributes.ATTACK_DAMAGE).setBaseValue(7.0); // 6-8 среднее
+        this.getAttributeInstance(EntityAttributes.ATTACK_DAMAGE).setBaseValue(7.0); 
         this.getAttributeInstance(EntityAttributes.MOVEMENT_SPEED).setBaseValue(0.4);
         this.getAttributeInstance(EntityAttributes.FOLLOW_RANGE).setBaseValue(32.0);
         this.getAttributeInstance(EntityAttributes.ARMOR).setBaseValue(2.0);

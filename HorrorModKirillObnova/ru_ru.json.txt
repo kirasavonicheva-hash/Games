@@ -1,0 +1,9 @@
+{
+    "entity.horrormod.horror_entity": "Странник",
+    "entity.horrormod.second_horror_entity": "Мародер",
+    "subtitles.horrormod.horror_ambient1": "Странник рычит",
+    "subtitles.horrormod.horror_ambient2": "Странник визжит",
+    "subtitles.horrormod.horror_ambient3": "Странник шепчет",
+    "subtitles.horrormod.second_horror_ambient1": "Мародер хихикает",
+    "subtitles.horrormod.second_horror_ambient2": "Мародер шипит"
+}

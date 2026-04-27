@@ -1,0 +1,21 @@
+HorrorMod/
+├── src/main/java/com/yourname/horrormod/
+│   ├── HorrorMod.java (ModInitializer)
+│   ├── entity/
+│   │   ├── HorrorEntity.java
+│   │   └── HorrorEntityModel.java
+│   ├── render/
+│   │   └── HorrorEntityRenderer.java
+│   └── spawn/
+│       └── HorrorSpawnHandler.java
+├── src/main/resources/
+│   ├── assets/horrormod/
+│   │   ├── lang/
+│   │   │   └── en_us.json
+│   │   │   └── ru_ru.json
+│   │   ├── textures/entity/horror_entity/
+│   │   │   ├── skin_1.png
+│   │   │   └── skin_2.png
+│   │   └── sounds.json
+│   ├── fabric.mod.json
+│   └── modid.mixins.json

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "horrormod",
+  "version": "${version}",
+  "name": "HorrorMod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/1412/HorrorMod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon1": "skin.png",
+  "icon2": "*",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kirillhorror.thekirillhorror.untitled.HorrorMod"
+    ],
+    "client": [
+      "com.kirillhorror.thekirillhorror.untitled.client.HorrorModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "Minecraft": "${minecraft_version}"
+  }
+}

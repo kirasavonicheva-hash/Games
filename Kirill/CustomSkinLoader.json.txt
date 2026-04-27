@@ -1,0 +1,14 @@
+{
+  "enable": true,
+  "loadlist": [
+    {
+      "name": "LocalSkin",
+      "type": "Legacy",
+      "checkPNG": false,
+      "skin": "LocalSkin/skins/{skin}.png",
+      "model": "auto",
+      "cape": "LocalSkin/capes/{skin}.png",
+      "elytra": "LocalSkin/elytras/{skin}.png"
+    }
+  ]
+}

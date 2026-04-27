@@ -1,0 +1,14 @@
+{
+    "horror_ambient1": {
+        "sounds": ["horrormod:horror_ambient1"],
+        "subtitle": "subtitles.horrormod.horror_ambient1"
+    },
+    "horror_ambient2": {
+        "sounds": ["horrormod:horror_ambient2"],
+        "subtitle": "subtitles.horrormod.horror_ambient2"
+    },
+    "horror_ambient3": {
+        "sounds": ["horrormod:horror_ambient3"],
+        "subtitle": "subtitles.horrormod.horror_ambient3"
+    }
+}

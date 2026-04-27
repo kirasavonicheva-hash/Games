@@ -1,0 +1,6 @@
+{
+  "entrypoints": {
+    "main": ["com.kirillhorror.thekirillhorror.untitled.HorrorMod"],
+    "client": ["com.example.horrormod.HorrorModClient"]  // ← правильный путь
+  }
+}

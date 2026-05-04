@@ -1,6 +1,0 @@
-{
-    "entity.horrormod.horror_entity": "Странник",
-    "subtitles.horrormod.horror_ambient1": "Странник рычит",
-    "subtitles.horrormod.horror_ambient2": "Странник визжит",
-    "subtitles.horrormod.horror_ambient3": "Странник шепчет"
-}
